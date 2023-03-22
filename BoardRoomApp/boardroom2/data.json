@@ -1,0 +1,724 @@
+#  {
+    "info": {
+        "_postman_id": "85c995a8-5fc8-4441-8b60-8888a46eeff2",
+        "name": "Boardrooms API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "26184498"
+    },
+    "item": [
+        {
+            "name": "Boardrooms",
+            "item": [
+                {
+                    "name": "Get all boardrooms",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{url}}/boardrooms",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "boardrooms"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "name": "Get all boardrooms",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/boardrooms",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "boardrooms"
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"name\": \"Creative Space\",\n        \"facilities\": [\n            \"Wi-Fi\"\n        ],\n        \"floor_no\": 5,\n        \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n        \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n        \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n        \"no_of_seats\": 1\n    },\n    {\n        \"name\": \"Inspiration Room\",\n        \"facilities\": [\n            \"Wi-Fi\",\n            \"microphone\",\n            \"projector\"\n        ],\n        \"floor_no\": 1,\n        \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n        \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n        \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n        \"no_of_seats\": 18\n    },\n    {\n        \"name\": \"Ideation Room\",\n        \"facilities\": [\n            \"Wi-Fi\",\n            \"Screen\"\n        ],\n        \"floor_no\": 3,\n        \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n        \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n        \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n        \"no_of_seats\": 16\n    }\n]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Employees",
+            "item": [
+                {
+                    "name": "Get all employees",
+                    "request": {
+                        "method": "GET",
+                        "header": []
+                    },
+                    "response": [
+                        {
+                            "name": "Get all employees",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/employees/",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "employees",
+                                        ""
+                                    ]
+                                }
+                            },
+                            "status": "Not Found",
+                            "code": 404,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Date",
+                                    "value": "Mon, 06 Mar 2023 09:05:46 GMT"
+                                },
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json; charset=utf-8"
+                                },
+                                {
+                                    "key": "Content-Length",
+                                    "value": "150"
+                                },
+                                {
+                                    "key": "Connection",
+                                    "value": "keep-alive"
+                                },
+                                {
+                                    "key": "x-srv-trace",
+                                    "value": "v=1;t=67808e686a8741c2"
+                                },
+                                {
+                                    "key": "x-srv-span",
+                                    "value": "v=1;s=e1547b01989f7671"
+                                },
+                                {
+                                    "key": "Access-Control-Allow-Origin",
+                                    "value": "*"
+                                },
+                                {
+                                    "key": "X-RateLimit-Limit",
+                                    "value": "120"
+                                },
+                                {
+                                    "key": "X-RateLimit-Remaining",
+                                    "value": "117"
+                                },
+                                {
+                                    "key": "X-RateLimit-Reset",
+                                    "value": "1678093549"
+                                },
+                                {
+                                    "key": "ETag",
+                                    "value": "W/\"96-S/5iQ2y1qqIInh5BwoPc+chvDJU\""
+                                },
+                                {
+                                    "key": "Vary",
+                                    "value": "Accept-Encoding"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n    \"id\": 101010,\n    \"name\": \"Sara\",\n    \"job_title\": \"Backend Developer\",\n    \"password\": \"secret\"\n\n},\n  {\n    \"id\": 112233,\n    \"name\": \"Maha\",\n    \"job_title\": \"Frontend Developer\",\n    \"password\": \"secret\"\n},\n  {\n    \"id\": 445566,\n    \"name\": \"Reema\",\n    \"job_title\": \"QA Engineer\",\n    \"password\": \"secret\"\n},\n\n  {\n    \"id\": 778899,\n    \"name\": \"Noura\",\n    \"job_title\": \"CS Engineer\",\n    \"password\": \"secret\"\n}\n\n]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bookings",
+            "item": [
+                {
+                    "name": "Get all bookings",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{url}}/bookings",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "bookings"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "name": "Get all bookings",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Date",
+                                    "value": "Sun, 05 Mar 2023 12:41:13 GMT"
+                                },
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json; charset=utf-8"
+                                },
+                                {
+                                    "key": "Content-Length",
+                                    "value": "150"
+                                },
+                                {
+                                    "key": "Connection",
+                                    "value": "keep-alive"
+                                },
+                                {
+                                    "key": "x-srv-trace",
+                                    "value": "v=1;t=19426407647e2576"
+                                },
+                                {
+                                    "key": "x-srv-span",
+                                    "value": "v=1;s=b27da711a220f5ea"
+                                },
+                                {
+                                    "key": "Access-Control-Allow-Origin",
+                                    "value": "*"
+                                },
+                                {
+                                    "key": "X-RateLimit-Limit",
+                                    "value": "120"
+                                },
+                                {
+                                    "key": "X-RateLimit-Remaining",
+                                    "value": "118"
+                                },
+                                {
+                                    "key": "X-RateLimit-Reset",
+                                    "value": "1678020122"
+                                },
+                                {
+                                    "key": "ETag",
+                                    "value": "W/\"96-S/5iQ2y1qqIInh5BwoPc+chvDJU\""
+                                },
+                                {
+                                    "key": "Vary",
+                                    "value": "Accept-Encoding"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"id\": \"50bfc6ea-0b33-410e-a6ed-1aafb92dec41\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-15T00:00:00Z\"\n    },\n    {\n        \"id\": \"e6583eb1-bf85-40c4-b2c4-981221e42ee9\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-23T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC43\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-16T00:00:00Z\"\n    },\n    {\n        \"id\": \"D87E52C3-6AB4-48FC-A8AE-6E42D89E33F0\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-24T00:00:00Z\"\n    },\n    {\n        \"id\": \"E8BE170D-991C-4A1A-95B4-E1BE6C21CD05\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-22T00:00:00Z\"\n    },\n    {\n        \"id\": \"DBF5E1E8-DDCE-46F7-A8D6-9D65ECC259A2\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-20T00:00:00Z\"\n    },\n    {\n        \"id\": \"67A2AFC5-C464-4B53-942F-E459146851E8\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-25T00:00:00Z\"\n    },\n    {\n        \"id\": \"2FE74E72-72CD-4375-A45F-3A7C9B178BD8\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-19T00:00:00Z\"\n    },\n    {\n        \"id\": \"49BF4581-CB21-4595-80B9-C88A2D46C0F9\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-21T00:00:00Z\"\n    },\n    {\n        \"id\": \"DBBD45E4-4FE0-4E39-9A84-7BEEDB562CB0\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-26T00:00:00Z\"\n    }\n]"
+                        }
+                    ]
+                },
+                {
+                    "name": "Post booking",
+                    "request": {
+                        "method": "GET",
+                        "header": []
+                    },
+                    "response": [
+                        {
+                            "name": "Post booking",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "name": "Content-Type",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n    \"date\": \"2023-03-16T00:00:00Z\",\n    \"employee\": {\n        \"id\": 112233\n        },\n    \"boardroom\": {\n        \"id\":\"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\"\n    }\n}",
+                                    "options": {
+                                        "raw": {
+                                            "language": "json"
+                                        }
+                                    }
+                                },
+                                "url": {
+                                    "raw": "{{url}}/bookings",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "{\n    \"error\": false,\n    \"message\": \"Boardroom has been booked successfully.\"\n}"
+                        }
+                    ]
+                },
+                {
+                    "name": "Get bookings of specific employee",
+                    "request": {
+                        "method": "GET",
+                        "header": []
+                    },
+                    "response": [
+                        {
+                            "name": "Get Sara's bookings",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/employee/?empID=101010",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "employee",
+                                        ""
+                                    ],
+                                    "query": [
+                                        {
+                                            "key": "empID",
+                                            "value": "101010"
+                                        }
+                                    ]
+                                }
+                            },
+                            "status": "Not Found",
+                            "code": 404,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Date",
+                                    "value": "Sun, 05 Mar 2023 13:13:07 GMT"
+                                },
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json; charset=utf-8"
+                                },
+                                {
+                                    "key": "Content-Length",
+                                    "value": "150"
+                                },
+                                {
+                                    "key": "Connection",
+                                    "value": "keep-alive"
+                                },
+                                {
+                                    "key": "x-srv-trace",
+                                    "value": "v=1;t=a2cd2f202e21b5d8"
+                                },
+                                {
+                                    "key": "x-srv-span",
+                                    "value": "v=1;s=b85b55205481013f"
+                                },
+                                {
+                                    "key": "Access-Control-Allow-Origin",
+                                    "value": "*"
+                                },
+                                {
+                                    "key": "X-RateLimit-Limit",
+                                    "value": "120"
+                                },
+                                {
+                                    "key": "X-RateLimit-Remaining",
+                                    "value": "119"
+                                },
+                                {
+                                    "key": "X-RateLimit-Reset",
+                                    "value": "1678022047"
+                                },
+                                {
+                                    "key": "ETag",
+                                    "value": "W/\"96-S/5iQ2y1qqIInh5BwoPc+chvDJU\""
+                                },
+                                {
+                                    "key": "Vary",
+                                    "value": "Accept-Encoding"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n      {\n        \"id\": \"50bfc6ea-0b33-410e-a6ed-1aafb92dec41\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-15T00:00:00Z\"\n    },\n    {\n        \"id\": \"e6583eb1-bf85-40c4-b2c4-981221e42ee9\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-23T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC43\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-16T00:00:00Z\"\n    }\n]\n\n"
+                        },
+                        {
+                            "name": "Get Maha's bookings",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/employee/:empID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "employee",
+                                        ":empID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "empID",
+                                            "value": null
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"id\": \"D87E52C3-6AB4-48FC-A8AE-6E42D89E33F0\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-24T00:00:00Z\"\n    },\n    {\n        \"id\": \"E8BE170D-991C-4A1A-95B4-E1BE6C21CD05\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-22T00:00:00Z\"\n    },\n    {\n        \"id\": \"DBF5E1E8-DDCE-46F7-A8D6-9D65ECC259A2\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-20T00:00:00Z\"\n    }\n]"
+                        },
+                        {
+                            "name": "Get Reema's bookings",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/employee/:empID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "employee",
+                                        ":empID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "empID",
+                                            "value": null
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"id\": \"67A2AFC5-C464-4B53-942F-E459146851E8\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-25T00:00:00Z\"\n    },\n    {\n        \"id\": \"2FE74E72-72CD-4375-A45F-3A7C9B178BD8\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-19T00:00:00Z\"\n    }\n]"
+                        },
+                        {
+                            "name": "Get Noura's bookings",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/employee/:empID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "employee",
+                                        ":empID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "empID",
+                                            "value": null
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"id\": \"49BF4581-CB21-4595-80B9-C88A2D46C0F9\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-21T00:00:00Z\"\n    },\n    {\n        \"id\": \"DBBD45E4-4FE0-4E39-9A84-7BEEDB562CB0\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-26T00:00:00Z\"\n    }\n]"
+                        },
+                        {
+                            "name": "Invalid Employee ID",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/:empID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        ":empID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "empID",
+                                            "value": null
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "{\n    \"error\": \"true\",\n    \"message\": \"Not Found\"\n}"
+                        }
+                    ]
+                },
+                {
+                    "name": "Get all bookings of  room",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{url}}/bookings/?boardroom=50BFC6EA-0B33-410E-A6ED-1AAFB92DEC41",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "bookings",
+                                ""
+                            ],
+                            "query": [
+                                {
+                                    "key": "boardroom",
+                                    "value": "50BFC6EA-0B33-410E-A6ED-1AAFB92DEC41"
+                                }
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "name": "Get all bookings of Creative Space",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/boardroom/:boardroomID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "boardroom",
+                                        ":boardroomID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "boardroomID",
+                                            "value": "DE1A9C36-F49C-48B4-9327-CEC2CB9453C6"
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n     {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC41\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-15T00:00:00Z\"\n    },\n      {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC42\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-23T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC43\",\n        \"boardroom\": {\n            \"name\": \"Creative Space\",\n            \"facilities\": [\n                \"Wi-Fi\"\n            ],\n            \"floor_no\": 5,\n            \"id\": \"DE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Creative%20Space.png?alt=media&token=8506f468-7d0a-4516-b9f7-45fe7fe59068\",\n            \"no_of_seats\": 1\n        },\n        \"date\": \"2023-03-16T00:00:00Z\"\n    }\n]"
+                        },
+                        {
+                            "name": "Get all bookings of Inspiration Room",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/boardroom/:boardroomID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "boardroom",
+                                        ":boardroomID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "boardroomID",
+                                            "value": "7F62674D-5DB0-4677-9719-CB54EB6CABF9"
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC44\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-15T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC45\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-22T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC46\",\n        \"boardroom\": {\n            \"name\": \"Inspiration Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"microphone\",\n                \"projector\"\n            ],\n            \"floor_no\": 1,\n            \"id\": \"7F62674D-5DB0-4677-9719-CB54EB6CABF9\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Inspiration%20Room.png?alt=media&token=c6c533d4-116e-4adb-b23e-9850ab4e7b91\",\n            \"no_of_seats\": 18\n        },\n        \"date\": \"2023-03-20T00:00:00Z\"\n    }\n]"
+                        },
+                        {
+                            "name": "Get all bookings of Ideation Room",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/boardroomID/:boardroomID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "boardroomID",
+                                        ":boardroomID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "boardroomID",
+                                            "value": "AE1A9C36-F49C-48B4-9327-CEC2CB9453C6"
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "[\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC47\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-16T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC48\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-19T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC49\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-21T00:00:00Z\"\n    },\n    {\n        \"id\": \"50BFC6EA-0B33-410E-A6ED-1AAFB92DEC410\",\n        \"boardroom\": {\n            \"name\": \"Ideation Room\",\n            \"facilities\": [\n                \"Wi-Fi\",\n                \"Screen\"\n            ],\n            \"floor_no\": 3,\n            \"id\": \"AE1A9C36-F49C-48B4-9327-CEC2CB9453C6\",\n            \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.\",\n            \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/nanochallenge2-9404d.appspot.com/o/Ideation%20Room.png?alt=media&token=1663b37c-edaf-43a2-a4f7-9dd2badf17ca\",\n            \"no_of_seats\": 16\n        },\n        \"date\": \"2023-03-23T00:00:00Z\"\n    }\n]"
+                        },
+                        {
+                            "name": "Invalid room id",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{url}}/bookings/boardroomID/:boardroomID",
+                                    "host": [
+                                        "{{url}}"
+                                    ],
+                                    "path": [
+                                        "bookings",
+                                        "boardroomID",
+                                        ":boardroomID"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "boardroomID",
+                                            "value": null
+                                        }
+                                    ]
+                                }
+                            },
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json",
+                                    "name": "Content-Type",
+                                    "description": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "cookie": [],
+                            "body": "{\n    \"error\": \"true\",\n    \"message\": \"Not Found\"\n}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "url",
+            "value": "https://ac2b02b3-cede-4dfd-90df-aa78f688cb6e.mock.pstmn.io",
+            "type": "string"
+        }
+    ]
+}
+
